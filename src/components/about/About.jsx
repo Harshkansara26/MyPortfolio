@@ -43,8 +43,7 @@ const About = () => {
             <p>
               Moreover, with an exceptional academic record, graduated from
               Centennial College with an
-              <strong>
-                Adv. Diploma in Software Engineering Technology-Artificial
+              <strong> Adv. Diploma in Software Engineering Technology-Artificial
                 Intelligence.
               </strong>
               Also, earned a 
