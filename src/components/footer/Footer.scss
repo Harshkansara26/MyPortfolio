@@ -1,0 +1,22 @@
+$color_1: #151515;
+$color_2: #2a9d8f;
+$color_3: #e9c46a;
+$color_4: #f4a261;
+$color_5: #e76f51;
+$color_6: #264653;
+
+$color1: #a75eea;
+$color2: #37ccff;
+$color3: #2df7a3;
+$color4: #017bfe;
+$background_color: #f8f9fa;
+$hover_color: #ffd700;
+
+.footer {
+  text-align: center;
+  background-image: linear-gradient(to right, $color2, $color_1);
+  color: $background_color;
+  font-size: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+}

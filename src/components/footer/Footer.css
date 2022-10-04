@@ -1,0 +1,10 @@
+.footer {
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(#37ccff), to(#151515));
+  background-image: linear-gradient(to right, #37ccff, #151515);
+  color: #f8f9fa;
+  font-size: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+}
+/*# sourceMappingURL=Footer.css.map */
