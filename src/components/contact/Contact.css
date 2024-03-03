@@ -1,0 +1,173 @@
+.contact__container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: "form icons";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  height: 100vh;
+  margin-top: -7rem;
+}
+
+.contact__container input {
+  border: none;
+}
+
+.contact__container .btn {
+  background-image: -webkit-gradient(linear, left top, right top, from(#151515), to(#37ccff));
+  background-image: linear-gradient(to right, #151515, #37ccff);
+  color: #f8f9fa;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+
+.contact__container .btn:hover {
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  background-image: none;
+  background-color: #ffd700;
+  color: #264653;
+}
+
+.contact__container .header__icons {
+  -webkit-animation: slideInFromRight 0.5s ease-in;
+          animation: slideInFromRight 0.5s ease-in;
+}
+
+.contact__container .icon {
+  margin: 0 auto;
+  font-size: 2rem;
+  color: #264653;
+}
+
+.contact__container .icon:hover {
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  border-radius: 3px;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  background-color: #ffd700;
+  color: #151515;
+}
+
+.contact__container form {
+  margin: 0 auto;
+}
+
+.contact__container .form__sec {
+  -webkit-animation: slideInFromLeft 0.5s ease-in;
+          animation: slideInFromLeft 0.5s ease-in;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: form;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact__container .form__sec input,
+.contact__container .form__sec textarea {
+  border-radius: 5px;
+  border: 1px solid #151515;
+  padding: 10px;
+  width: 280px;
+}
+
+.contact__container .form_lab {
+  margin-bottom: 1rem;
+}
+
+.contact__container .form-control {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.contact__container .header__icons {
+  margin: 0 auto;
+  font-size: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact__container .header__icons a {
+  text-decoration: none;
+  color: #151515;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact__container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: "form" "icons";
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+    height: 100%;
+  }
+  .contact__container .form__sec {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: form;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+  }
+  .header__icons {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+/*# sourceMappingURL=Contact.css.map */

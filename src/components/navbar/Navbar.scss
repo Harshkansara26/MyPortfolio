@@ -1,0 +1,148 @@
+$color_1: #151515;
+$color_2: #2a9d8f;
+$color_3: #e9c46a;
+$color_4: #f4a261;
+$color_5: #e76f51;
+
+$color1: #a75eea;
+$color2: #37ccff;
+$color3: #2df7a3;
+$color4: #017bfe;
+$background_color: #f8f9fa;
+$hover_color: #ffd700;
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
+.navbar-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, $color_1, $color2);
+  color: $background_color;
+  font-size: 1.1rem;
+  height: 70px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  a {
+    color: $background_color;
+  }
+}
+
+.navbar-logo {
+  justify-self: start;
+  margin-left: 10px;
+  cursor: pointer;
+  color: $hover_color;
+  font-size: 2.5rem;
+  font-family: "Birthstone", cursive;
+}
+
+.fa-brands {
+  margin-left: 10px;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  justify-content: end;
+  text-align: center;
+  list-style: none;
+  margin-right: 2rem;
+  width: 70vw;
+}
+
+.nav-links {
+  text-decoration: none;
+  padding: 1rem 1rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: $background_color;
+}
+
+.nav-links:hover {
+  transition: all 0.5s ease-out;
+  border-bottom: 1px solid $hover_color;
+  color: $hover_color;
+}
+.nav-logo:hover {
+}
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  nav.navbar-items {
+    position: relative;
+    line-height: 1;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background-image: linear-gradient(to right, $color_1, $color2);
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    display: table;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    padding: 14px 20px;
+
+    transition: all 0.3s ease-out;
+  }
+
+  .nav-links-mobile:hover {
+    background-image: linear-gradient(to right, $color_1, $color2);
+    transition: 250ms;
+  }
+}

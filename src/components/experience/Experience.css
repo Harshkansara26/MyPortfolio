@@ -1,0 +1,33 @@
+.experience__container {
+  -webkit-animation: slideInFromTop 0.5s ease-in;
+          animation: slideInFromTop 0.5s ease-in;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.experience__container .experience__section {
+  margin: 1rem 0;
+  color: #264653;
+  padding: 2rem;
+  border: 1px solid #264653;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .experience__container {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=Experience.css.map */

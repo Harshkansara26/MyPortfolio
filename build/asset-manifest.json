@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.7b2ac21e.css",
+    "main.js": "/MyPortfolio/static/js/main.f6470866.js",
+    "static/media/amazon.png": "/MyPortfolio/static/media/amazon.b07b9d3f7ced9325ece7.png",
+    "static/media/Ticker.png": "/MyPortfolio/static/media/Ticker.8853fa5ff58ca31e9d16.png",
+    "static/media/intelligentSearch.png": "/MyPortfolio/static/media/intelligentSearch.71aa72e6d824c6e8e32d.png",
+    "static/media/CardScanner.png": "/MyPortfolio/static/media/CardScanner.0ea74e67c2bcb08a0811.png",
+    "static/media/profile.png": "/MyPortfolio/static/media/profile.432879e07b6825316f76.png",
+    "static/media/profile.jpeg": "/MyPortfolio/static/media/profile.0f6b8092522445fcc93f.jpeg",
+    "static/media/Harsh-Kansara-Resume.pdf": "/MyPortfolio/static/media/Harsh-Kansara-Resume.59cce8bac94badf9b246.pdf",
+    "static/media/WordPress.jpeg": "/MyPortfolio/static/media/WordPress.f2522c346e446ede0686.jpeg",
+    "index.html": "/MyPortfolio/index.html",
+    "main.7b2ac21e.css.map": "/MyPortfolio/static/css/main.7b2ac21e.css.map",
+    "main.f6470866.js.map": "/MyPortfolio/static/js/main.f6470866.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b2ac21e.css",
+    "static/js/main.f6470866.js"
+  ]
+}
