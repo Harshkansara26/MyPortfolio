@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.057cc897.css",
+    "main.js": "/MyPortfolio/static/js/main.c23ae6b4.js",
+    "static/media/profile.png": "/MyPortfolio/static/media/profile.abcd0e4c2a6f2a9d0ecd.png",
+    "static/media/CardScanner.png": "/MyPortfolio/static/media/CardScanner.0ea74e67c2bcb08a0811.png",
+    "static/media/tripez.jpg": "/MyPortfolio/static/media/tripez.54121c8edcfd6fa769a0.jpg",
+    "static/media/Harsh-Kansara-Resume.pdf": "/MyPortfolio/static/media/Harsh-Kansara-Resume.3b1c46dc16a2fdb3e223.pdf",
+    "static/media/profile.jpeg": "/MyPortfolio/static/media/profile.96606a0699b6a4d9870f.jpeg",
+    "static/media/faceid.png": "/MyPortfolio/static/media/faceid.651813f04383afa14ecf.png",
+    "static/media/survey.jpg": "/MyPortfolio/static/media/survey.e1a261208ce2b5a4a93f.jpg",
+    "static/media/sentiment analysis.jpg": "/MyPortfolio/static/media/sentiment analysis.fbe42d50e2388ce28d5c.jpg",
+    "index.html": "/MyPortfolio/index.html",
+    "main.057cc897.css.map": "/MyPortfolio/static/css/main.057cc897.css.map",
+    "main.c23ae6b4.js.map": "/MyPortfolio/static/js/main.c23ae6b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.057cc897.css",
+    "static/js/main.c23ae6b4.js"
+  ]
+}
